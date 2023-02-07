@@ -13,7 +13,7 @@ import org.springframework.stereotype.Repository;
 import com.luv2code.springdemo.entity.Customer;
 
 // Tells Spring that this is a Component
-// Tells Spring that this is also a Data Acessing Object
+// Tells Spring that this is also a Data Accessing Object
 @Repository
 public class CustomerDAOImpl implements CustomerDAO{
 
@@ -23,7 +23,7 @@ public class CustomerDAOImpl implements CustomerDAO{
 	
 	
 	@Override
-	// Manage (start, stop) transaction automatically
+	// Manage (start, stop) of transactions automatically
 	@Transactional
 	public List<Customer> getCustomers() {
 		
@@ -34,6 +34,8 @@ public class CustomerDAOImpl implements CustomerDAO{
 		Query<Customer> theQuery = currentSession.createQuery("from Customer", Customer.class);
 		
 		// execute query and get result list
+			// getResultList() - execute a SELECT query and 
+			// return the query results as an untyped List.
 		List<Customer> customersList = theQuery.getResultList();
 		
 		// return the results
