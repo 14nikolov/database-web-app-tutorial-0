@@ -2,7 +2,7 @@
 
 ---I. Project Purpose -----------------------------------------------------------------------------------
 
-- The project is based on Sections 28-29(included) from the Udemy course
+- The project is based on Sections 28 and 29 from the Udemy course
  Spring & Hibernate for Beginners (includes Spring Boot) by Chad Darby
  
 - In these section we learn about:
