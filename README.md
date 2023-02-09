@@ -1,4 +1,4 @@
-(you can skip this project and go directly to #database-web-app-tutorial-1, because it is a finished project)
+#you can skip this project and go directly to #database-web-app-tutorial-1, because it is a finished project
 
 # database-web-app-tutorial-0
 # web-customer-tracker
